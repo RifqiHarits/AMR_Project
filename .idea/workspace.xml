@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03815687-78d8-4b6f-a1a0-a4e307c6a2bf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1prl1WrDUOM0ZQws8gEdi2VlyAb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Shelf.Project.Settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rifqi (School)\PycharmProjects\AMR_Project\Test_Folder" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rifqi (School)\PycharmProjects\RequestTest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.amr_gui">
+    <configuration name="amr_environment (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AMR_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amr_environment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="amr_environment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AMR_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Rifqi (School)\PycharmProjects\AMR_Project\amr_environment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="amr_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AMR_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amr_gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="amr_testing2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AMR_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amr_testing2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="amr_testing3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AMR_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amr_testing3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.amr_gui" />
+        <item itemvalue="Python.amr_environment (1)" />
+        <item itemvalue="Python.amr_testing3" />
+        <item itemvalue="Python.amr_testing2" />
+        <item itemvalue="Python.amr_environment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Rifqi (School)\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03815687-78d8-4b6f-a1a0-a4e307c6a2bf" name="Default Changelist" comment="" />
+      <created>1615948874973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615948874973</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="302" y="105" key="#Notifications" timestamp="1616143584266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="302" y="105" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1616143584266" />
+    <state x="361" y="71" key="#Python" timestamp="1616734499993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Python/0.0.1536.824@0.0.1536.824" timestamp="1616734499993" />
+    <state x="496" y="27" key="#amr_elements" timestamp="1616143939046">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="27" key="#amr_elements/0.0.1536.824@0.0.1536.824" timestamp="1616143939046" />
+    <state x="496" y="27" key="#amr_testing" timestamp="1616143947690">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="27" key="#amr_testing/0.0.1536.824@0.0.1536.824" timestamp="1616143947690" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616034090787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1616034090787" />
+    <state x="412" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616034165879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="412" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1616034165879" />
+    <state x="496" y="39" key="#requesting" timestamp="1615957468177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="39" key="#requesting/0.0.1536.824@0.0.1536.824" timestamp="1615957468177" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1616144049361">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1616144049361" />
+    <state width="1515" height="191" key="GridCell.Tab.0.bottom" timestamp="1617247413273">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617247413273" />
+    <state width="1515" height="191" key="GridCell.Tab.0.center" timestamp="1617247413273">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617247413273" />
+    <state width="1515" height="191" key="GridCell.Tab.0.left" timestamp="1617247413273">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617247413273" />
+    <state width="1515" height="191" key="GridCell.Tab.0.right" timestamp="1617247413273">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617247413273" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1616652053318">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616652053318" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1616652053318">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1616652053318" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1616652053317">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1616652053317" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1616652053318">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1616652053318" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1616143757841">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616143757841" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1617245814699">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1617245814699" />
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1616143978320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1616143978320" />
+  </component>
+</project>
