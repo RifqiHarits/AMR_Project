@@ -1,5 +1,5 @@
-# Progress 5
-# Last Updated: 30 March 2021
+# Progress 6
+# Last Updated: 7 April 2021
 # Made by Rifqi
 # AMR Version: 1.2.2
 # Refer to "Public Client Interface for the SESTO Element Server" Manual for AMRServerElement Class
