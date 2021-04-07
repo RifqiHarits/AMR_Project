@@ -51,17 +51,6 @@ def main():
             amr.send_idle_wait_reached(amr_id)
             amr.send_goal_auto_release(amr_id, graph_id, 3)
             amr.wait(4)
-            '''
-            amr.send_goal_auto_release(amr_id, graph_id, 4)
-            amr.wait(4)
-            amr.send_goal_auto_release(amr_id, graph_id, 6)
-            amr.wait(4)
-            amr.idle_release(amr_id)
-            amr.wait(3)
-            amr.send_goal_auto_release(amr_id, graph_id, 3)
-            amr.idle_release(amr_id)
-            amr.wait(10)
-            '''
             if amr_6.get_main_battery_percentage() < 40:
                 break
             # if not choice(amr_id):
@@ -94,16 +83,6 @@ def main():
             amr.send_idle_wait_reached(amr_id)
             amr.send_goal_auto_release(amr_id, graph_id, 4)
             amr.wait(4)
-            '''
-            amr.send_goal_auto_release(amr_id, graph_id, 3)
-            amr.wait(4)
-            amr.idle_release(amr_id)
-            amr.wait(4)
-            amr.send_goal_auto_release(amr_id, graph_id, 4)
-            amr.wait(2)
-            amr.idle_release(amr_id)
-            amr.wait(10)
-            '''
             if amr_7.get_main_battery_percentage() < 40:
                 break
             # if not choice(amr_id):

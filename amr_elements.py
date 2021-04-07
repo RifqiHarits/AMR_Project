@@ -148,13 +148,13 @@ class AMRServerElement:
         else:
             return r.json()
 
-    def pause_amrs(self, amr_id=[]):
+    def pause_amrs(self, amr_ids=[]):
         if not self.pingable_result:
             return
         url = 'http://' + self.ip + '/public'
         url = url + '/amrs/pause'
         data = {
-            "ids": amr_id,
+            "ids": amr_ids,
             "status": "paused"
         }
         r = requests.put(url, json.dumps(data), headers=self.authorization)
@@ -168,13 +168,13 @@ class AMRServerElement:
         else:
             return r.json()
 
-    def resume_amrs(self, amr_id=[]):
+    def resume_amrs(self, amr_ids=[]):
         if not self.pingable_result:
             return
         url = 'http://' + self.ip + '/public'
         url = url + '/amrs/pause'
         data = {
-            "ids": amr_id,
+            "ids": amr_ids,
             "status": "operational"
         }
         r = requests.put(url, json.dumps(data), headers=self.authorization)
@@ -777,3 +777,73 @@ class AMRElement:
             return False
         else:
             return r.json()
+
+    def mag_dock_backward(self):
+        if not self.pingable_result:
+            return
+        url = 'http://' + self.ip + '/amr/public'
+        url = url + "/controls/docking/magnetic"
+
+        data = '{"max_vtheta" : 0.0, "direction" : "backward", "name" : "backward", "max_vx" : 0.1, "slow_vx" : 0.0, "slow_vtheta" : 0.0, "is_safety_active" : false, "is_docking" : true}'
+
+        r = requests.post(url, json.dumps(data), headers=self.headers)
+
+        print(r.text)
+
+        if r.status_code >= 400:
+            return False
+
+        get_url = 'http://' + self.ip + '/amr/public' + "/status/docking"
+
+        while True:
+            try:
+                r = requests.get(get_url)
+                if r.status_code >= 400:
+                    return False
+                data = r.json()
+                if not data["status"] == "docking":
+                    if data["status"] == "successful":
+                        print("done")
+                        return True
+                    else:
+                        print("fail")
+                        return False
+                time.sleep(1)
+            except Exception as e:
+                print("docking failed", e)
+                return False
+
+    def mag_dock_forward(self):
+        if not self.pingable_result:
+            return
+        url = 'http://' + self.ip + '/amr/public'
+        url = url + "/controls/docking/magnetic"
+
+        data = '{"max_vtheta" : 0.0, "direction" : "forward", "name" : "forward", "max_vx" : 0.1, "slow_vx" : 0.0, "slow_vtheta" : 0.0, "is_safety_active" : false, "is_docking" : true}'
+
+        r = requests.post(url, json.dumps(data), headers=self.headers)
+
+        print(r.text)
+
+        if r.status_code >= 400:
+            return False
+
+        get_url = 'http://' + self.ip + '/amr/public' + "/status/docking"
+
+        while True:
+            try:
+                r = requests.get(get_url)
+                if r.status_code >= 400:
+                    return False
+                data = r.json()
+                if not data["status"] == "docking":
+                    if data["status"] == "successful":
+                        print("done")
+                        return True
+                    else:
+                        print("fail")
+                        return False
+                time.sleep(1)
+            except Exception as e:
+                print("docking failed", e)
+                return False
