@@ -847,3 +847,12 @@ class AMRElement:
             except Exception as e:
                 print("docking failed", e)
                 return False
+
+
+class AMRList:
+    def __init__(self):
+        self.list = {6: "192.168.1.248",
+                     7: "192.168.1.249"}
+
+    def append(self, amr_id, amr_ip_address):
+        self.list[amr_id] = amr_ip_address

@@ -23,16 +23,22 @@ goto start
 :con1
 ECHO Setting IP Address to 192.168.1.200 and Gateway to 192.168.1.254
 netsh interface ip set address "Wi-Fi" static 192.168.1.200 255.255.255.0 192.168.1.254
+netsh interface ip set dns "Wi-Fi" static 208.67.222.222
+netsh interface ip add dns "Wi-Fi" 208.67.220.220
 goto end
 
 :con2
 ECHO Setting IP Address to 192.168.1.201 and Gateway to 192.168.1.254
 netsh interface ip set address "Wi-Fi" static 192.168.1.201 255.255.255.0 192.168.1.254
+netsh interface ip set dns "Wi-Fi" static 208.67.222.222
+netsh interface ip add dns "Wi-Fi" 208.67.220.220
 goto end
 
 :con3
 ECHO Setting IP Address to 192.168.1.202 and Gateway to 192.168.1.254
 netsh interface ip set address "Wi-Fi" static 192.168.1.202 255.255.255.0 192.168.1.254
+netsh interface ip set dns "Wi-Fi" static 208.67.222.222
+netsh interface ip add dns "Wi-Fi" 208.67.220.220
 goto end
 
 :con4
@@ -40,6 +46,8 @@ set /p hostbitval= Set host bit to:
 SET customip=192.168.1.%hostbitval%
 ECHO Setting IP Address to %customip% and Gateway to 192.168.1.254
 netsh interface ip set address "Wi-Fi" static %customip% 255.255.255.0 192.168.1.254
+netsh interface ip set dns "Wi-Fi" static 208.67.222.222
+netsh interface ip add dns "Wi-Fi" 208.67.220.220
 goto end
 
 :autosearch
