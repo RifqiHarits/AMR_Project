@@ -53,6 +53,7 @@ goto end
 :autosearch
 ECHO Change to DHCP Connection
 netsh interface ip set address "Wi-Fi" dhcp
+netsh interface ip set dns "Wi-Fi" dhcp
 ECHO -- Renewing IP --
 ipconfig /renew "Wi-Fi"
 goto end
