@@ -1,7 +1,7 @@
-# Progress 6
-# Last Updated: 7 April 2021
+# Progress 7
+# Last Updated: 7 July 2021
 # Made by Rifqi
-# AMR Version: 1.2.2
+# AMR Version: 1.3.0
 # Refer to "Public Client Interface for the SESTO Element Server" Manual for AMRServerElement Class
 # Refer to "Public Interface for SESTO Element AMRs" Manual for AMRElement Class
 
@@ -499,6 +499,141 @@ class AMRServerElement:
             return False
         self.wait_reached_waypoint(amr_id, waypoint_id)
         return True
+
+    def post_user_input(self, data):
+        if not self.pingable_result:
+            return
+        url = 'http://' + self.ip + '/payload_input/user_input'
+        r = requests.post(url, json.dumps(data), headers=self.authorization)
+        print('Status Code: {}'.format(r.status_code))
+        try:
+            print("JSON from {}:".format(url))
+            print(r.json())
+        except Exception as e:
+            print(e)
+            return False
+        else:
+            return r.json()
+
+    def get_user_input(self):
+        if not self.pingable_result:
+            return
+        url = 'http://' + self.ip + '/payload_input/user_input'
+        r = requests.get(url, headers=self.authorization)
+        print('Status Code: {}'.format(r.status_code))
+        try:
+            print("JSON from {}:".format(url))
+            print(r.json())
+        except Exception as e:
+            print(e)
+            return False
+        else:
+            return r.json()
+
+    def create_task(self, data):
+        if not self.pingable_result:
+            return
+        url = 'http://' + self.ip + '/public'
+        url = url + '/ensemble/task'
+        r = requests.post(url, json.dumps(data), headers=self.authorization)
+        print('Status Code: {}'.format(r.status_code))
+        try:
+            print("JSON from {}:".format(url))
+            print(r.json())
+        except Exception as e:
+            print(e)
+            return False
+        else:
+            return r.json()
+
+    def get_tasks(self):
+        if not self.pingable_result:
+            return
+        url = 'http://' + self.ip + '/public'
+        url = url + '/ensemble/task'
+        r = requests.get(url, headers=self.authorization)
+        print('Status Code: {}'.format(r.status_code))
+        try:
+            print("JSON from {}:".format(url))
+            print(r.json())
+        except Exception as e:
+            print(e)
+            return False
+        else:
+            return r.json()
+
+    def update_task(self, data):
+        if not self.pingable_result:
+            return
+        url = 'http://' + self.ip + '/public'
+        url = url + '/ensemble/task'
+        r = requests.put(url, json.dumps(data), headers=self.authorization)
+        print('Status Code: {}'.format(r.status_code))
+        try:
+            print("JSON from {}:".format(url))
+            print(r.json())
+        except Exception as e:
+            print(e)
+            return False
+        else:
+            return r.json()
+
+    def cancel_task(self, task_id):
+        if not self.pingable_result:
+            return
+        url = 'http://' + self.ip + '/public'
+        url = url + '/ensemble/task/cancel'
+        data = {
+            "id": task_id
+        }
+        r = requests.post(url, json.dumps(data), headers=self.authorization)
+        print('Status Code: {}'.format(r.status_code))
+        try:
+            print("JSON from {}:".format(url))
+            print(r.json())
+        except Exception as e:
+            print(e)
+            return False
+        else:
+            return r.json()
+
+    def pause_task(self, task_id):
+        if not self.pingable_result:
+            return
+        url = 'http://' + self.ip + '/public'
+        url = url + '/ensemble/task/pause'
+        data = {
+            "id": task_id
+        }
+        r = requests.post(url, json.dumps(data), headers=self.authorization)
+        print('Status Code: {}'.format(r.status_code))
+        try:
+            print("JSON from {}:".format(url))
+            print(r.json())
+        except Exception as e:
+            print(e)
+            return False
+        else:
+            return r.json()
+
+    def resume_task(self, task_id):
+        if not self.pingable_result:
+            return
+        url = 'http://' + self.ip + '/public'
+        url = url + '/ensemble/task/resume'
+        data = {
+            "id": task_id
+        }
+        r = requests.post(url, json.dumps(data), headers=self.authorization)
+        print('Status Code: {}'.format(r.status_code))
+        try:
+            print("JSON from {}:".format(url))
+            print(r.json())
+        except Exception as e:
+            print(e)
+            return False
+        else:
+            return r.json()
 
 
 class AMRElement:
