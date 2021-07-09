@@ -60,7 +60,7 @@ class AMRServerElement:
             "Cache-Control": "no-cache"
         }
 
-    def __init__(self, ip="192.168.0.249", username="admin", password="P@ssword123"):
+    def __init__(self, ip="192.168.0.249", username="partner", password="P@ssword123"):
         self.username = username
         self.password = password
         self.ip = ip
@@ -660,7 +660,6 @@ class AMRElement:
         self.headers = {
             "Content-Type": "application/json",
             "Cache-Control": "no-cache",
-            "Postman-Token": "b284e43b-c500-45b6-8962-c29a88c9f2af"
         }
 
     def get_json(self, url_append):
