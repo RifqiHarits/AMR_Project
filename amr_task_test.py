@@ -7,19 +7,9 @@ data = {
     "goals": [{
         "index": 0,
         "waypoint_id": 13,
-        "pickup": [],
-        #"delivery": []
-    }, {
-        "index": 1,
-        "waypoint_id": 4,
-        "pickup": [],
-        #"delivery": []
-    }]
+    }],
+    "priority": 1
 }
 
-data1 = {
-    "task_definition_id": 29,
-}
-
-# amr.get_json('/manager/tasks/definitions')
-amr.create_task(data)
+amr.get_json('/manager/tasks/definitions')
+# amr.update_task(data)
